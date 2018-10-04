@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&subset=cyrillic");
+/*
+theme
+*/
+body {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21.560000000000002px;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+ul {
+  margin-bottom: 0;
+}
+:root {
+  --primary: #f24f1d;
+  --dark: #1f1f1f;
+  --gray: #7b7b7b;
+}
+a,
+a:hover,
+a:active {
+  color: var(--dark);
+}
+.btn-outline-primary {
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:not(:disabled):not(.disabled):active {
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+}
+.badge {
+  border-radius: 1000px;
+  padding: 2px 5px;
+}
+.badge-primary {
+  background-color: #f24f1d;
+}
+.header {
+  height: 90px;
+  padding: 20px 0;
+}
+.header__logo {
+  height: 54px;
+}
+.header__menu {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+.header__menu > ul {
+  list-style: none;
+}
+.header__menu > ul > li {
+  display: inline-block;
+  padding: 0 10px;
+}
+.header__menu > ul > li > a {
+  color: var(--gray);
+  font-size: 0.75rem;
+}
+.header__menu > ul > li > a > .badge {
+  position: relative;
+  display: inline-block;
+  top: -6px;
+  left: -6px;
+}
+.header__phone {
+  color: var(--dark) !important;
+  font-size: 1.2rem !important;
+}
+.header__phone > span {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  font-size: 1.7rem !important;
+}
+.header__menu > ul > li > a.header__button-call {
+  font-weight: 400;
+  color: var(--dark);
+  font-size: 1rem !important;
+  border-radius: 1000px;
+}
+.header__menu > ul > li > a.header__button-call:hover {
+  color: #fff;
+}
+.header__button-call > svg {
+  padding-right: 5px;
+  height: 100%;
+}
+.header__button-call:hover > svg > path {
+  fill: #fff;
+}
+.context-menu > .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.context-menu {
+  padding: 0.75rem 0;
+}
+.context-menu > a {
+  color: var(--dark);
+  text-align: center;
+  text-transform: uppercase;
+}
+.general-search {
+  background-color: var(--primary);
+  padding: 0.3rem;
+  border-radius: 1000rem;
+}
+.general-search input {
+  border-radius: 1000rem;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+.general-search input:hover,
+.general-search input:focus {
+  box-shadow: none;
+}
+.general-search__icon {
+  padding-left: 1rem;
+}
+.breadcrumbs {
+  padding: 0.6rem 0;
+}
+.breadcrumbs > ul {
+  list-style: none;
+}
+.breadcrumbs > ul > li:a {
+  color: var(--dark);
+}
+.breadcrumbs > ul > li {
+  display: inline-block;
+}
+.breadcrumbs > ul > li:first-child {
+  padding: 0;
+}
+.breadcrumbs > ul > li::after {
+  content: "→";
+  margin: 0 0.4rem;
+}
+.breadcrumbs > ul > li:last-child::after {
+  content: "";
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */
